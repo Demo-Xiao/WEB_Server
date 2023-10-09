@@ -1,0 +1,21 @@
+﻿  Validating sources
+  Copying sources remotely to '47.120.15.84'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  HttpConn.cpp
+D:\codeSpace\CppSpace\webServerCPP\WebServer_v1.4\WebServer_v1.4\WebServer_v1.4\HttpConn.cpp(12,27): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+D:\codeSpace\CppSpace\webServerCPP\WebServer_v1.4\WebServer_v1.4\WebServer_v1.4\HttpConn.cpp(12,27): warning :    12 |         while ((len = recv(fd, tmp, sizeof(tmp), 0)) > 0) {
+D:\codeSpace\CppSpace\webServerCPP\WebServer_v1.4\WebServer_v1.4\WebServer_v1.4\HttpConn.cpp(12,27): warning :       |                       ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+D:\codeSpace\CppSpace\webServerCPP\WebServer_v1.4\WebServer_v1.4\WebServer_v1.4\HttpConn.cpp(13,33): warning : comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+D:\codeSpace\CppSpace\webServerCPP\WebServer_v1.4\WebServer_v1.4\WebServer_v1.4\HttpConn.cpp(13,33): warning :    13 |                 if (total + len < sizeof(buf)) {
+D:\codeSpace\CppSpace\webServerCPP\WebServer_v1.4\WebServer_v1.4\WebServer_v1.4\HttpConn.cpp(13,33): warning :       |                     ~~~~~~~~~~~~^~~~~~~~~~~~~
+D:\codeSpace\CppSpace\webServerCPP\WebServer_v1.4\WebServer_v1.4\WebServer_v1.4\HttpConn.cpp(188,27): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+D:\codeSpace\CppSpace\webServerCPP\WebServer_v1.4\WebServer_v1.4\WebServer_v1.4\HttpConn.cpp(188,27): warning :   188 |                 len = read(fdFile, buf, sizeof(buf));
+D:\codeSpace\CppSpace\webServerCPP\WebServer_v1.4\WebServer_v1.4\WebServer_v1.4\HttpConn.cpp(188,27): warning :       |                       ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\codeSpace\CppSpace\webServerCPP\WebServer_v1.4\WebServer_v1.4\WebServer_v1.4\HttpConn.cpp(200,41): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+D:\codeSpace\CppSpace\webServerCPP\WebServer_v1.4\WebServer_v1.4\WebServer_v1.4\HttpConn.cpp(200,41): warning :   200 |                         flag_send = send(fd, buf, len, 0);
+D:\codeSpace\CppSpace\webServerCPP\WebServer_v1.4\WebServer_v1.4\WebServer_v1.4\HttpConn.cpp(200,41): warning :       |                                     ~~~~^~~~~~~~~~~~~~~~~
+  Linking objects
+  WebServer_v1.4.vcxproj -> D:\codeSpace\CppSpace\webServerCPP\WebServer_v1.4\WebServer_v1.4\WebServer_v1.4\bin\x64\Debug\WebServer_v1.4.out
